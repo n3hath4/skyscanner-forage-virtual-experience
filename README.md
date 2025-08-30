@@ -5,10 +5,10 @@
 > so please refer to [it's documentation](https://github.com/facebook/create-react-app/blob/master/packages/react-scripts/template/README.md)
 > for more usage information.
 
-# [_Skyscanner Forage - Software Engineering Virtual Experience_]
+# _Skyscanner Forage - Software Engineering Virtual Experience_
 
 
-[_A repository tracking my progress through Skyscanner's software engineering simulation on [Forage] (https://www.theforage.com/simulations/skyscanner/software-engineering-cm01). This project demonstrates the use of React with Skyscanner's Backpack design system._]
+_A repository tracking my progress through Skyscanner's software engineering simulation on [Forage] (https://www.theforage.com/simulations/skyscanner/software-engineering-cm01). This project demonstrates the use of React with Skyscanner's Backpack design system._
 
 ## 🚀 Project Progress
 
