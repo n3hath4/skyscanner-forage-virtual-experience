@@ -151,7 +151,7 @@ By default, modules imported from your app's `node_modules` directory will get c
 
 The above example assumes that the module you want to compile is named with the prefix `my-module-prefix-` and a module with the name `some-module`. All entries in this array act as prefixes. It is used by all Webpack configurations as well as the Jest configuration — if you want to avoid compiling a dependency in tests, you should mock it.
 
-## Disabling AMD parsing for certain modules
+### Disabling AMD parsing for certain modules
 
 If you need to disable AMD module support for whatever reason, you can add the following to your `package.json`:
 
