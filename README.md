@@ -26,24 +26,39 @@ _A repository tracking my progress through Skyscanner's software engineering sim
   -Successfully processed sample data sets ('rental_cars.json', 'hotels.json') to return relevant search results based on city queries.
   -Configured and launched a local server, validating functionality through IntelliJ and Postman.
   -**Tech Stack:** Java, Dropwizard, Maven, Jersey, Jackson
+  - **Repository**: [Dropwizard microservice](https://github.com/n3hath4/hoen-scanner.git)
 
-### **Task 3: Create a Mobile Flight Itinerary** - 🔄 **In Progress**
+### **Task 3: Create a Mobile Flight Itinerary** - ✅ **Complete**
 -**Objective:** Develop an Android application to display a user's flight itinerary using Backpack.
--**Key Learnings:** Android development, Backpack UI library integration, mobile proof of concept development.
+-**Key Learnings:** 
+  -Set up Android Studio development environment and resolved emulator configuration issues.
+  -Integrated Backpack Android library dependencies and resolved Gradle build conflicts.
+  -Designed and implemented a three-card UI layout displaying flight information, departure, and arrival details using Backpack components.
+  -Applied ConstraintLayout and Backpack design system for professional mobile interface.
+- **Tech Stack**: Kotlin, Android Studio, Backpack Android, XML Layouts
+- **Repository**: [Flightscry Android App](https://github.com/n3hath4/flightscry-app.git)
+
+### Task 4: Build a User-Friendly Platform - 🔄 **In Progress**
+- **Objective**: Redesign Skyscanner's ad portal for external clients using Figma.
+- **Key Learnings**: UI/UX design principles for intuitive platforms, addressing value, usability, and feasibility risks.
+- **Deliverables**: Create 3 Figma designs for ad creation, performance tracking, and feedback.
 
 ---
 
 ## 🛠️ How to Run
+
+### React App (Task 1)
+1. **Install dependencies:** `npm install`
+2. **Run development server:** `npm start`
+3. **Open:** `http://localhost:3000`
 
 ### Microservice (Task 2)
 1. **Build:** `mvn clean package` (executed via IntelliJ Maven integration)
 2. **Run:** `java -jar target/hoen-scanner-1.0-SNAPSHOT.jar server config.yml`
 3. **Test:** Send POST requests to `http://localhost:8080/search` with JSON body `{"city": "cityname"}`
 
-### React App (Task 1)
-1. **Install dependencies:** `npm install`
-2. **Run development server:** `npm start`
-3. **Open:** `http://localhost:3000`
+### Android App (Task 3)
+- Open the project in Android Studio and run on an emulator or device.
 
 ---
 
@@ -52,10 +67,12 @@ _A repository tracking my progress through Skyscanner's software engineering sim
 This project provided hands-on experience with:
 - Modern frontend development with React and component libraries
 - Backend microservice architecture with Dropwizard
-- Dependency management and conflict resolution
+- Mobile application development for Android with Kotlin and Backpack
+- Dependency management and conflict resolution across multiple platforms
 - JSON data processing and REST API design
 - Debugging complex development environment issues
 - Professional Git workflow and repository maintenance
+- UI/UX implementation with design systems
 
 *Developed as part of the [Skyscanner Software Engineering Virtual Experience](https://www.theforage.com/simulations/skyscanner/software-engineering-cm01).*
 
